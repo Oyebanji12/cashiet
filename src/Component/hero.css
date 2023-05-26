@@ -1,0 +1,317 @@
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.hero-wrapper{
+    /* flex: 1; */
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+.card-number, .cvv-number, .expiry-date, .password{
+    font-size: 18px;
+    font-weight: bold;
+    color: #191970;
+
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+.card-wrapper p{
+    font-size: 16px;
+    color: gray;
+}
+.text{
+    font-size: 16px;
+    color: gray;
+}
+
+.pencil-wrap{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+} 
+.edit{
+    color: #0066b2;
+}
+.pencil-icon{
+    color: #0066b2;
+}
+
+
+.payment-img-wrapper img{ 
+    width: 16rem;
+    height: 26rem;
+    padding: 1rem;
+    
+     
+}
+
+.mastercard-section{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid #808080; */
+    height: 2.3rem;
+    border-radius: 0.5rem;
+    background-color: #ffff;
+    /* f8f9f5; */
+    
+
+}
+.mastercard-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15rem;
+   
+   
+    
+}
+.mastercard-wrap{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+    
+}
+
+.mastercard-icon{
+    color: #EE4B2B;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+}
+.mastercard-number{
+    color: gray;
+    padding: 1rem;
+}
+
+.tick-icon{
+    color: #0066b2;
+    font-size: 1.3rem;
+}
+
+.cvv-section, .expiry-section, .password-section{
+    margin-top: 1rem;
+
+}
+
+.cvv-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cvv-border{
+    display: flex;
+    
+    border: 2px solid gray;
+    width: 13rem;
+    height: 3rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    justify-content: space-evenly;
+}
+
+ .text-in-cvv{
+    color: #0047AB;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.dot-icon{
+    color: gray;
+    font-size: 28px;
+    font-weight: bold;
+}
+.expiry-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.expiry-border{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.first-border{
+    border: 2px solid gray;
+    width: 6rem;
+    height: 3rem;
+    align-items: center;
+    display: flex;
+    border-radius: 0.6rem;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.second-border{
+    border: 2px solid blue;
+    width: 6rem;
+    height: 3rem;
+    align-items: center;
+    display: flex;
+    border-radius: 0.6rem;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0047AB;
+    background-color: lightblue;
+
+}
+.slash{
+    padding: 0.7rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.password-border{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    width: 13rem;
+    height: 3rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+    
+}
+.star{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.paynow-btn{
+    width: 30rem;
+    height: 3.4rem;
+    margin-top: 1.9rem;
+    background-color: #0F52BA;
+    color: #ffff;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:700px){
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-wrapper{
+        margin: 0 auto;
+          
+    }
+    .card-wrapper{
+        width: 60%;
+        
+    }
+    .card-wrapper p{
+        font-size: 12px;
+        color: gray;
+    }
+    .mastercard-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;   
+        
+    }
+    .mastercard-wrap{
+        display: flex;
+        align-items: center;
+        
+    }
+    .mastercard-section{
+        width: 70%;
+    }
+    .cvv-section{
+        width: 70%;
+    }
+    .expiry-section{
+        width: 70%;
+    }
+    .password-section{
+        width: 70%;
+
+    }
+    .paynow-btn{
+        width: 70%;
+    }
+    .payment-img-wrapper img{
+        width: 35%;
+        height: 10%;
+    }
+    
+    
+}
+
+@media screen and (max-width:550px){
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-wrapper{
+        margin: 0 auto;
+         
+    }
+    .card-wrapper{
+        width: 60%;
+        
+    }
+    .card-wrapper p{
+        font-size: 12px;
+        color: gray;
+    }
+    .mastercard-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;   
+        
+    }
+    .mastercard-wrap{
+        display: flex;
+        align-items: center;
+        
+    }
+    .mastercard-section{
+        width: 70%;
+    }
+    .cvv-section{
+        width: 70%;
+    }
+    .expiry-section{
+        width: 70%;
+    }
+    .password-section{
+        width: 70%;
+
+    }
+    .paynow-btn{
+        width: 70%;
+    }
+    .payment-img-wrapper img{
+        width: 35%;
+        height: 10%;
+        
+    }
+
+    
+}
+
